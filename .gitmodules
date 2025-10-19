@@ -1,0 +1,3 @@
+[submodule "shotoshop"]
+	path = shotoshop
+	url = https://github.com/teeeejayhub/shotoshop.git
