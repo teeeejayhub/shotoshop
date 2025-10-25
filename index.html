@@ -10,16 +10,17 @@
 <body>
 
     <header class="site-header">
+
         <div class="brand">
             <a href="index.html">
-                <img src="images/ШотоShop.png" width="100" height="100" id="logo">
+                <img src="images/ШотоShop.png" width="60" height="60" id="logo">
                 <h1>ШотоShop</h1>
             </a>
         </div>
         
         <nav class="menu">
-            <ul>
-                <li><a href="index.html" target="_blank">Каталог</a></li>
+            <ul class="menu_list">
+                <li class="menu_catalog"><a href="index.html">Каталог</a></li>
                 <li><a href="wishlist.html" target="_blank">Спісак бажань</a></li>
                 <li><a href="cart.html" target="_blank">Кошик</a></li>
             </ul>
@@ -27,7 +28,7 @@
     
         <form class="search" action="/searsh" role="search">
             <input placeholder="ШоШукаєм?">
-            <button type="button">Шукати</button>
+            <button type="button" class="search_button">Шукати</button>
         </form>
     </header>
 
