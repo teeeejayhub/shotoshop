@@ -1,0 +1,17 @@
+body{
+    background-color:#ffff ;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+.site-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+
+}
