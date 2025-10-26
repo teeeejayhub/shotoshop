@@ -19,8 +19,8 @@
         </div>
         
         <nav class="menu">
-            <ul class="menu_list">
-                <li class="menu_catalog"><a href="index.html">Каталог</a></li>
+            <ul class="menu-list">
+                <li class="menu-catalog"><a href="index.html">Каталог</a></li>
                 <li><a href="wishlist.html" target="_blank">Спісак бажань</a></li>
                 <li><a href="cart.html" target="_blank">Кошик</a></li>
             </ul>
@@ -32,11 +32,13 @@
         </form>
     </header>
 
-    <h2>Сортувати</h2>
-            <ul>
-                <li><h3>
-                    <button id="eat">Попоїсти</button>
-                </h3></li>
+    <div class="layout">
+        <ul class="sort-list">
+                <h2>Сортувати</h2>
+                    <li><h3>
+                        <button id="eat" class="sort-buttons">Попоїсти</button>
+                    </h3></li>
+
                     <ul class="subcategories">
                         <li>
                             <input type="checkbox" id="vegetables">
@@ -92,23 +94,23 @@
                             <label for="alco">Попопити <u>не для дітінак!</u></label>
                         </li>
                     </ul>
-
+    
                 <li><h3><strong>
                     <button id="sales">Акції та ЗниШки</button> 
                 </strong></h3></li>
-                
-            <li><h3>
-                <button id="confirm">Підтвердити</button>
-            </h3></li>
-                
-            <li><h3>
-                <button id="ALL">ОчиШтити</button>
-            </h3></li>
+                    
+                <li><h3>
+                    <button id="confirm">Підтвердити</button>
+                </h3></li>
+                    
+                <li><h3>
+                    <button id="ALL">ОчиШтити</button>
+                </h3></li>
             </ul>
-
-    <section id="catalog">
-        <div class="product list">
-
+    
+    
+    <main id="catalog" class="catalog">
+        <div class="product-list">
             
             <article class="product vegetables">
                 <a href="product.html" target="_blank">
@@ -165,7 +167,7 @@
                 </a>
                 <p class="price">Ціна: 8.95 грн/кг</p>
             </article>
-
+            
             <article class="product fruit">
                 <a href="product.html" target="_blank">
                     <img src="images/product images/apple.webp" alt="Яблуко" width="150">
@@ -173,7 +175,7 @@
                 </a>
                 <p class="price">Ціна: 34,95 грн/кг</p>
             </article>
-
+            
             <article class="product fruit">
                 <a href="product.html" target="_blank">
                     <img src="images/product images/banana.webp" alt="Бананьчік" width="150">
@@ -181,7 +183,7 @@
                 </a>
                 <p class="price">Ціна: 62,89 грн/кг</p>
             </article>
-
+            
             <article class="product fruit">
                 <a href="product.html" target="_blank">
                     <img src="images/product images/pear.webp" alt="ГруШкі" width="150">
@@ -284,7 +286,7 @@
                 </a>
                 <p class="price">Ціна: 63.90 грн</p>
             </article>
-
+            
             <article class="product eat meat">
                 <a href="product.html" target="_blank">
                     <img src="images/product images/sausage cheese.webp" alt="Сасіскі Сірні" width="150">
@@ -292,7 +294,7 @@
                 </a>
                 <p class="price">Ціна: 93.70 грн</p>
             </article>
-
+            
             <article class="product eat meat">
                 <a href="product.html" target="_blank">
                     <img src="images/product images/bread black.webp" alt="Хліб Чорні" width="150">
@@ -308,7 +310,7 @@
                 </a>
                 <p class="price">Ціна: 19.40 грн</p>
             </article>
-
+            
             <article class="product eat bakery">
                 <a href="product.html" target="_blank">
                     <img src="images/product images/lavash.webp" alt="ЛАУВАш" width="150">
@@ -398,6 +400,7 @@
             </article>
 
             <article class="product eat sweet ">
+            
                 <a href="product.html" target="_blank">
                     <img src="images/product images/snickers.webp" alt="Сні_ерс" width="150">
                     <h1>Сні_ерс</h1>
@@ -761,8 +764,8 @@
 
 
         </div>
-    </section>
-    
+    </main>
+    </div>
     
 </body>
 </html>
